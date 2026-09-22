@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard | University of Education</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body class="auth-page dashboard-page">
+    <header class="dashboard-nav">
+        <a class="auth-brand" href="index.html"><img src="images/education-logo.webp" alt="University of Education logo">University of Education</a>
+        <nav aria-label="Account navigation">
+            <a href="index.html">Explore the site</a>
+            <a href="login.html" data-logout>Log out</a>
+        </nav>
+    </header>
+    <main class="dashboard-main">
+        <p class="dashboard-eyebrow">Learner dashboard</p>
+        <h1>Welcome back, <span data-dashboard-email>Guest learner</span>.</h1>
+        <p class="dashboard-intro">Your learning space is ready. Pick up where you left off or discover something new from the university.</p>
+        <section class="dashboard-grid" aria-label="Dashboard overview">
+            <article class="dashboard-stat"><i class="fa fa-book" aria-hidden="true"></i><strong>12</strong><span>Saved courses</span></article>
+            <article class="dashboard-stat"><i class="fa fa-calendar" aria-hidden="true"></i><strong>03</strong><span>Upcoming events</span></article>
+            <article class="dashboard-stat"><i class="fa fa-envelope" aria-hidden="true"></i><strong data-dashboard-email>Guest learner</strong><span>Signed-in email</span></article>
+        </section>
+        <section class="dashboard-panel">
+            <h2>Continue exploring</h2>
+            <p>Browse the latest courses, meet our teachers, and keep building your next chapter.</p>
+            <a class="auth-back" href="our-courses.html">View our courses â†’</a>
+        </section>
+    </main>
+    <script src="auth.js"></script>
+</body>
+</html>
+
+

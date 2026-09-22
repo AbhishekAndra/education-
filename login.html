@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | University of Education</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body class="auth-page">
+    <main class="auth-shell">
+        <aside class="auth-aside">
+            <a class="auth-brand" href="index.html"><img src="images/education-logo.webp" alt="University of Education logo">University of Education</a>
+            <div class="auth-aside-content">
+                <p class="auth-kicker">Your learning space</p>
+                <h1>Keep learning. Keep moving.</h1>
+                <p>Sign in to continue exploring courses, events, and your learner dashboard.</p>
+            </div>
+            <p class="auth-aside-footer">Â© 2026 University of Education</p>
+        </aside>
+        <section class="auth-main" aria-labelledby="login-title">
+            <div class="auth-card">
+                <div class="auth-card-header">
+                    <h2 id="login-title">Welcome back</h2>
+                    <p>Enter your details to access your dashboard.</p>
+                </div>
+                <form class="auth-form" data-login-form>
+                    <div class="auth-field">
+                        <label for="login-email">Email address</label>
+                        <input id="login-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+                    </div>
+                    <div class="auth-field">
+                        <label for="login-password">Password</label>
+                        <input id="login-password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required>
+                    </div>
+                    <div class="auth-form-row">
+                        <label class="auth-check"><input type="checkbox" name="remember"> Remember me</label>
+                        <a href="404.html">Forgot password?</a>
+                    </div>
+                    <p class="auth-note" aria-live="polite"></p>
+                    <button class="auth-button" type="submit">Log in</button>
+                </form>
+                <p class="auth-switch">New to the university? <a href="signup.html">Create an account</a></p>
+                <a class="auth-back" href="index.html">â† Back to home</a>
+            </div>
+        </section>
+    </main>
+    <script src="auth.js"></script>
+</body>
+</html>
+
+
